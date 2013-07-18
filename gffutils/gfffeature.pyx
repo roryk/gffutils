@@ -108,7 +108,7 @@ cdef class Feature:
         :param attributes: Attributes for the feature, specific to the format
         :param filetype: File type this feature should be considered (GFF, GTF)
 
-        The `feature` attribute, if not provided, is automatically detected and
+        The `filetype` attribute, if not provided, is automatically detected and
         is either `'gtf'` or '`gff'`.
         """
         self.chrom = chrom
